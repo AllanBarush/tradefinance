@@ -36,6 +36,30 @@ ul.temas li::before{content:"";position:absolute;left:0;top:24px;width:9px;heigh
 .cross .s{font-style:italic;color:var(--soft);font-size:14px;margin-top:4px}
 footer{background:var(--bg2);color:var(--soft);padding:36px 24px;text-align:center;font-family:'Poppins',Arial,sans-serif;font-size:12px;line-height:2;border-top:1px solid var(--rule)}
 footer a{color:var(--acc);text-decoration:none}
+</style>
+<style>
+/* ==== Temario del libro Factoraje ==== */
+.tem-grid{display:grid;grid-template-columns:1.5fr 1fr;gap:26px;margin-top:8px}
+@media(max-width:820px){.tem-grid{grid-template-columns:1fr}}
+.tem-h{font-family:'Poppins',Arial,sans-serif;font-size:12px;font-weight:600;
+  letter-spacing:.24em;text-transform:uppercase;color:var(--acc);margin:0 0 16px}
+.tem-sem{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.tem-sem li{display:flex;gap:12px;align-items:flex-start;background:rgba(255,255,255,.04);
+  border:1px solid rgba(59,191,184,.18);border-radius:10px;padding:12px 15px;
+  font-size:14.5px;line-height:1.6;color:var(--ink)}
+.tw{flex:none;font-family:'Poppins',Arial,sans-serif;font-weight:700;font-size:11px;
+  letter-spacing:.08em;color:#04211F;background:var(--acc);border-radius:6px;
+  padding:3px 8px;margin-top:2px}
+.tem-lado{display:flex;flex-direction:column;gap:14px}
+.tem-cap{background:linear-gradient(160deg,rgba(59,191,184,.15),rgba(6,21,35,.05));
+  border:1px solid rgba(59,191,184,.38);border-radius:12px;padding:16px 18px}
+.tem-cap-k{font-family:'Poppins',Arial,sans-serif;font-size:10.5px;font-weight:700;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--acc);margin-bottom:7px}
+.tem-cap p{font-size:13.5px;line-height:1.65;color:var(--ink);margin:0}
+.tem-meta{background:rgba(255,255,255,.04);border:1px solid rgba(215,226,224,.10);
+  border-radius:10px;padding:13px 15px;font-size:13.5px;line-height:1.65;color:var(--soft)}
+.tem-meta b{display:block;font-family:'Poppins',Arial,sans-serif;font-size:10.5px;
+  font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin-bottom:5px}
 </style></head><body>
 
 <header class="hero">
@@ -51,6 +75,19 @@ footer a{color:var(--acc);text-decoration:none}
  <div class="hero-ctas"><a class="btn btn-primary" href="#rm-enroll">Inscríbete</a><a class="btn btn-ghost" href="#programa">Ver detalles</a></div>
 </header>
 
+
+<section class="sec" id="temario"><div class="wrap">
+ <div class="kicker">Temario</div><h2 class="sec-title">Qu&eacute; vas a dominar.</h2>
+ <p class="sec-sub">Comprender el universo del trade finance como contexto del factoraje internacional: cartas de crédito, garantías, standby LCs, cobranzas documentarias, forfaiting, structured/commodity trade finance, seguro de crédito y el trade finance gap de USD 2.5 billones.</p>
+ <div class="tem-grid">
+  <div><h3 class="tem-h">Contenidos</h3>
+   <ol class="tem-sem"><li><span class="tw">01</span><span>Cartas de crédito, cobranzas documentarias, garantías</span></li><li><span class="tw">02</span><span>Forfaiting</span></li><li><span class="tw">03</span><span>Riesgos y mitigantes en comercio exterior</span></li><li><span class="tw">04</span><span>Incoterms y documentos de embarque.</span></li></ol></div>
+  <aside class="tem-lado">
+   <div class="tem-cap"><div class="tem-cap-k">Entregable</div><p>Estructura de una operación de trade finance.</p></div>
+   <div class="tem-meta"><b>&iquest;Para qui&eacute;n?</b>Comercio exterior, internacional, estructuración y riesgos.</div>
+  </aside>
+ </div>
+</div></section>
 <section class="sec" id="programa"><div class="wrap">
  <div class="kicker">El programa</div><h2 class="sec-title">Ficha del programa.</h2><p class="sec-sub">Curso de RiskMathics Financial Institute en formato Híbrido. Regístrate y recibe el temario completo por correo; un asesor te contacta el mismo día.</p>
  <div class="ficha">
